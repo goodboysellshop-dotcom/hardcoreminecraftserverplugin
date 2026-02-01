@@ -1,0 +1,10 @@
+name: HardcoreBan
+version: 1.0
+main: com.goyesbro.hardcoreban.HardcoreBan
+api-version: '1.21'
+description: Плагин на бан после смерти с контактами менеджера.
+commands:
+  unbanplayer:
+    description: Команда для разбана игрока модератором.
+    permission: hardcoreban.admin
+    usage: /unbanplayer <ник>
